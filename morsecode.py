@@ -161,7 +161,7 @@ def get_cleaned_english_sentence(raw_english_sentence):
     raw_english_sentence = raw_english_sentence.replace('!', '')
     raw_english_sentence = raw_english_sentence.replace('?', '')
     result = raw_english_sentence
-
+    # 정규표현식도 해보자
     return result
     # ==================================
 
